@@ -4,8 +4,8 @@
 
 idx=1
 
-while [ idx -lt 5 ]
+while [ $idx -le 5 ]
 do 
     echo "The current number is $idx"
-    let "idx++"     #let command used for arithmetic operations. It allows you to
+    let "idx++"     #let command used for arithmetic operations.
 done
