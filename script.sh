@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#file organizing script
 
 target_directory="/path/to/target/directory"
 
