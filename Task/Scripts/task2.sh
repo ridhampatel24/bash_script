@@ -3,10 +3,10 @@
 #Create a Bash script that automates a task related to system maintenance. For instance, develop a script that regularly backs up specified directory and archives them with a timestamp. Additionally, consider implementing a mechanism to clean up older backups to manage storage space effectively.
 
 
-source_directory="/home/ridham/Desktop/Task/test_backup"
-backup_directory="/home/ridham/Desktop/Task/Backup"
+source_directory="/home/ridham/Desktop/BashScript/Task/test_backup"
+backup_directory="/home/ridham/Desktop/BashScript/Task/Backup"
 
-max_backups=5
+max_backups=3
 
 timestamp=$(date +"%Y%m%d%H%M%S")
 
