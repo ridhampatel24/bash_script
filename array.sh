@@ -8,7 +8,7 @@ unset os[2]  #will delete kali linux
 
 echo "${os[@]}"   #print all elements
 echo ${os[2]}
-echo ${!os[@]}
+echo ${!os[@]} #print the index od the array
 #${os[@]:1:3}  #get element from index 1 to 3
 
 for i in "${!os[@]}"; do
